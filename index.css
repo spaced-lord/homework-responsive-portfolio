@@ -3,7 +3,7 @@
 }
 
 body {
-    background: snow;
+    background: rgb(201, 243, 214);
 }
 
 header {
@@ -31,7 +31,8 @@ img {
     padding: 10px;
 }
 
-.content {
+.bottom-container {
+    height: 100px;
     background: rgb(4, 192, 89);
     text-align: center;
     color: snow;

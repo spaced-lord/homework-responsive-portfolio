@@ -3,7 +3,8 @@
  }
  
  body {
-     background: snow;
+    background: rgb(201, 243, 214);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
  
  header {
@@ -15,3 +16,61 @@
  a {
      color: snow;
  }
+
+ /* Start of contact form */
+
+.form-group {
+    background: navy;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+} 
+
+.form-group2 {
+    background: navy;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 650px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+} 
+
+input { 
+    background: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#inputFullName {
+    position: absolute;
+    left: 25%;
+    bottom: 15%;
+    width: 400px;
+
+}
+
+#inputMessage {
+    position: absolute;
+    left: 25%;
+    top: 2% ;
+    width: 800px;
+    height: 600px;
+}
+
