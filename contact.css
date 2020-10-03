@@ -1,23 +1,17 @@
-* {
+** {
     box-sizing: border-box; 
  }
  
  body {
-     background: black;
+     background: snow;
  }
  
- nav {
-     background-color: slategray;
-     border: solid 2px snow;
-     font-family: Arial, Helvetica, sans-serif;
-     text-emphasis: bold;
- }
- 
- .navbar-brand {
-     font-size: 50px;
+ header {
+     background: rgb(4, 192, 89);
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-bottom: 100px;
  }
  
  a {
      color: snow;
-     font-family: Arial, Helvetica, sans-serif;
-     
+ }
