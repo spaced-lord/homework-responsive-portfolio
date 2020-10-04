@@ -1,17 +1,18 @@
- * {
-    box-sizing: border-box; 
- }
- 
- body {
-     background: rgb(201, 243, 214);
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- }
- 
- header {
-     background: rgb(4, 192, 89);
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     margin-bottom: 100px;
- }
+* {
+   box-sizing: border-box; 
+}
+
+body {
+    background: rgb(201, 243, 214);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background: rgb(4, 192, 89);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 100px;
+}
+
 .navbar-brand {
     font-size: 50px;
     color: navy;
