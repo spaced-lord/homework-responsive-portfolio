@@ -4,6 +4,7 @@
  
  body {
      background: rgb(201, 243, 214);
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
  
  header {
@@ -11,11 +12,35 @@
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      margin-bottom: 100px;
  }
+.navbar-brand {
+    font-size: 50px;
+    color: navy;
+}
 
- a {
-     color: snow;
- }
+.nav-item a {
+    color:  white;
+}
 
+.nav-item2 a {
+    color: white;
+}
+
+.nav-item3 a {
+    color: white;
+}
+
+.list-inline {
+    margin: -45px;
+    margin-right: 50px;
+}
+
+.list-inline-item {
+    margin: 15px;
+    float: right;
+}
+
+
+/* Start of photo cards */
  .card {
     margin: 150px;
     background: navy;
@@ -52,4 +77,20 @@ img {
     height: 200px;
     clear: both;
 }
+
+
+/* Start of footer */
+.bottom-container {
+    height: 100px;
+    background: rgb(4, 192, 89);
+    text-align: center;
+    color: snow;
+    margin: 25px;
+    margin-top: 900px;
+}
+
+a {
+    color: white;
+}
+
 

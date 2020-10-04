@@ -4,6 +4,7 @@
 
 body {
     background: rgb(201, 243, 214);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -12,9 +13,34 @@ header {
     margin-bottom: 100px;
 }
 
-a {
-    color: snow;
+.navbar-brand {
+    font-size: 50px;
+    color: navy;
 }
+
+.nav-item a {
+    color:  white;
+}
+
+.nav-item2 a {
+    color: white;
+}
+
+.nav-item3 a {
+    color: white;
+}
+
+.list-inline {
+    margin: -45px;
+    margin-right: 50px;
+}
+
+.list-inline-item {
+    margin: 15px;
+    float: right;
+}
+
+/* Start of container */
 
 h1 {
     background: navy;
@@ -31,6 +57,7 @@ img {
     padding: 10px;
 }
 
+/* Start of footer */
 .bottom-container {
     height: 100px;
     background: rgb(4, 192, 89);
@@ -38,6 +65,10 @@ img {
     color: snow;
     margin: 25px;
     margin-top: 200px;
+}
+
+a {
+    color: white;
 }
 
 
