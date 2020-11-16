@@ -3,20 +3,20 @@
 }
 
 body {
-    background: rgb(146, 196, 161);
+    background: #007bb6;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-nav {
-    background: rgb(0, 0, 0);
+header {
+    background: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 100px;
 }
 
 .navbar-brand {
-    font-size: 50px;
-    color: darkgreen;
-    padding: 15px;
+  font-size: 50px;
+  color: #6CC644;
+  padding: 15px;
 }
 
 .nav-item a {
@@ -46,7 +46,9 @@ nav {
 h1 {
     padding: 25px;
     width: 75%;
-    background: rgb(9, 71, 9);
+    border: blue solid 4px;
+    border-radius: 15px;
+    background: #6cc644;
     color: snow;
     line-height: 200%;
     font-size: 18px;
@@ -63,7 +65,7 @@ img {
 
 /* Start of footer */
 .bottom-container {
-    height: 100px;
+    height: 150px;
     background: black;
     text-align: left;
     color: snow;

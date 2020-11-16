@@ -3,7 +3,7 @@
 }
 
 body {
-    background: rgb(146, 196, 161);
+    background: #007bb6;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -15,20 +15,20 @@ header {
 
 .navbar-brand {
     font-size: 50px;
-    color: darkgreen;
+    color: #6CC644;
     padding: 15px;
 }
 
 .nav-item a {
-    color:  white;
+    color:  snow;
 }
 
 .nav-item2 a {
-    color: white;
+    color: snow;
 }
 
 .nav-item3 a {
-    color: white;
+    color: snow;
 }
 
 .list-inline {
@@ -46,7 +46,9 @@ header {
  .card {
     margin: 150px;
     margin-left: 260px;
-    background: rgb(9, 71, 9);
+    border: blue solid 4px;
+    border-radius: 15px;
+    background: #6CC644;
     color: snow;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
@@ -56,7 +58,9 @@ header {
 
 .card2 {
     margin: 150px;
-    background: rgb(9, 71, 9);
+    border: blue solid 4px;
+    border-radius: 15px;
+    background: #6CC644;
     color: snow;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
@@ -66,7 +70,9 @@ header {
 
 .card3 {
     margin: 150px;
-    background: rgb(9, 71, 9);
+    border: blue solid 4px;
+    border-radius: 15px;
+    background: #6CC644;
     color: snow;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
@@ -81,10 +87,17 @@ img {
     clear: both;
 }
 
+button {
+  background: #6CC644;
+  border-radius: 5px;
+  border: #007bb6 solid 2px;
+  margin: 5px;
+}
+
 
 /* Start of footer */
 .bottom-container {
-    height: 100px;
+    height: 150px;
     background: black;
     text-align: left;
     color: snow;
